@@ -7,24 +7,20 @@ body {
 }
 
 .app-container {
-  padding: 20px;
+  padding: 10px;
 }
 
-.app-header {
+.app-container h1 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 24px;
   text-align: center;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 1rem;
-}
-
-.app-header h1 {
-  margin-bottom: 0.5rem;
 }
 
 .picker-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .timeline-section {

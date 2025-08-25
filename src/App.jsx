@@ -34,9 +34,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <header className="app-header">
-        <h1>High-Fidelity Interactive Timeline</h1>
-      </header>
+      <h1>High-Fidelity Interactive Timeline</h1>
 
       <div className="picker-container">
         <DatePicker onRangeSelect={handleDateRangeSelect} />
